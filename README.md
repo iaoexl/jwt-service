@@ -1,8 +1,8 @@
 # JwtService(JWT令牌服务)
 
-> 在某能耗系统对接测试过程中，有用到`JWT令牌` ，原 [JwtService.java](jwt.java\JwtService.java) 脚本需要部署Java环境，且挺复杂的。如果要运行原版脚本需要加载 [java-jwt-3.4.0.jar](jwt.java\java-jwt-3.4.0.jar) 库。
+> 在某能耗系统对接测试过程中，有用到`JWT令牌` ，原 [JwtService.java](jwt.java/JwtService.java) 脚本需要部署Java环境，且挺复杂的。如果要运行原版脚本需要加载 [java-jwt-3.4.0.jar](jwt.java/java-jwt-3.4.0.jar) 库。
 
-> [main.py](jwt.python\main.py)  脚本在Windows环境中运行、测试，适配 [python-3.10](https://www.python.org/ftp/python/3.10.0/python-3.10.0rc2-amd64.exe) 程序。运行时需要将 `config.example.ini` 重命名为 `config.example.ini`
+> [main.py](jwt.python/main.py)  脚本在Windows环境中运行、测试，适配 [python-3.10](https://www.python.org/ftp/python/3.10.0/python-3.10.0rc2-amd64.exe) 程序。运行时需要将 `config.example.ini` 重命名为 `config.example.ini`
 
 ```cmd
 # 复制一份
