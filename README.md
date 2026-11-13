@@ -1,4 +1,4 @@
-# JwtService(JWT令牌服务)
+# JWT令牌服务(JwtService)
 
 > 在某能耗系统对接测试过程中，有用到`JWT令牌` ，原 [JwtService.java](jwt.java/JwtService.java) 脚本需要部署Java环境，且挺复杂的。如果要运行原版脚本需要加载 [java-jwt-3.4.0.jar](jwt.java/java-jwt-3.4.0.jar) 库。
 > 
