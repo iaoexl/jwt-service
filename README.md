@@ -1,6 +1,6 @@
 # JWT令牌服务(JwtService)
 
-> 在某能耗系统对接测试过程中，有用到`JWT令牌` ，原 [JwtService.java](java/JwtService.java) 脚本需要部署Java环境，且挺复杂的。如果要运行原版脚本需要加载 [java-jwt-3.4.0.jar](java/java-jwt-3.4.0.jar) 库。
+> 在某能耗系统的对接测试中，采用了 `JWT令牌` 进行安全认证。原版 [JwtService.java](java/JwtService.java) 脚本依赖复杂的 Java 运行环境，且需额外加载 [java-jwt-3.4.0.jar](java/java-jwt-3.4.0.jar) 依赖库，部署成本较高。
 > 
 > [main.py](src/main.py)  脚本在Windows环境中运行、测试，适配 [python-3.10](https://www.python.org/ftp/python/3.10.0/python-3.10.0rc2-amd64.exe) 程序。运行时需要将 `config.example.ini` 重命名为 `config.example.ini`
 
